@@ -8,7 +8,7 @@ FLAGS := -std=c99 -Wall -Werror
 DEPS := 
 
 # Object files
-OBJS := 04.o
+OBJS := 05.o
 
 %.o: %.c $(DEPS)
 	$(CC) $(FLAGS) -c $<
